@@ -1,6 +1,6 @@
 # litbank.
 
-## introduction
+## introduction.
 
 litbank. is a powerful content-based book reccommendation engine
 
