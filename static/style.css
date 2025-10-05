@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.noMarginBordersPadding{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+body {
+    background: white;
+    color: #060709;
+    font-family: "Poppins", sans-serif;
+
+    background-image: radial-gradient(#060709 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+
+    display:flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 64px;
+
+    border-top: #060709 3px solid;
+    margin-top: auto;
+
+    color: #060709;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.header{
+    background-color: white;
+    border-bottom: #060709 3px solid;
+    
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header *{
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.links-list{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.links-list-item{
+    padding: 0px 20px;
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.links-list-item:hover{
+    background-color: #060709;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.links-list-item:hover .links-list-item-link {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.links-list-item-link{
+    color: #060709;
+    text-decoration: none;
+}
+
+.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    border-right: #060709 3px solid;
+    border-left: #060709 3px solid;
+    padding: 0px 50px;
+}
+
+.title:hover{
+    background-color: #060709;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    
+    height: 650px;
+    width: 80vw;
+    min-width: 320px;
+    max-width: 1440px;
+
+    margin: 64px auto;
+    
+}
+
+.side-window{
+    background-color: white;
+    margin: 30px;;
+    padding: 20px;
+    width: 20%;
+
+    border: #060709 3px solid;
+    border-radius:10px;
+    box-shadow: 5px 10px 0px grey;
+}
+
+.main-window{
+    background-color: white;
+
+    border: #060709 3px solid;
+    border-radius:10px;
+    box-shadow: 5px 10px 0px grey;
+    
+    display: flex;
+    height: 100%;
+    width: 80%;
+}
+
