@@ -31,7 +31,7 @@ Load it up and find a book you won't want to put down.
 ## interface
 ![screenshot of ui](/static/images/interface-first-draft.png)
 
-## Development Log
+## dev log.
 
 > **01/10/2025**  
 > Created the first working draft of the index, trained on the 'embeddinggemma' model.
@@ -45,7 +45,7 @@ Load it up and find a book you won't want to put down.
 > *ML Implementation to be added to web app*
 > *Table CSS to be added*
 
-## Future Improvements
+## future improvements.
 - Add user authentication and profiles
 - Improve recommendation algorithm
 - Deploy to cloud for public access
